@@ -41,6 +41,7 @@ header {
 header nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 header img {
@@ -54,6 +55,17 @@ header img {
 .navbar {
     padding: 2rem 5rem 2rem 5rem !important;
     display: flex;
+    align-items: center;
+}
+
+.navbar div {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
 }
 
 .navbar li {
@@ -72,7 +84,7 @@ header span {
 }
 
 main {
-    margin: 10vh 50vw 0 15vw !important;
+    margin: 0 15vw 0 15vw !important;
 }
 
 main h1 {
@@ -105,6 +117,80 @@ main .btn-outline-dark:hover {
     background-color: white !important;
     border-color: white !important;
 }
+
+main .btn-outline-dark a {
+    color: white;
+    padding: 10px 15px 10px 15px !important;
+}
+
+main .btn-outline-dark a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+main .container-fluid {
+    margin: 0 0 0 0 !important;
+}
+
+#container-fluid-kontakt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70vw;
+    margin-right: 15vw;
+    margin-left: 15vw;
+    padding: 0 0 0 0 !important;
+}
+
+#row-kontakt {
+    padding: 0 0 0 0 !important;
+    margin: 0;
+}
+
+#row-kontakt h2 {
+    margin-bottom: 30px;
+}
+
+#col-md-6-kontakt {
+    width: 32.5vw;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 0 0 0 !important;
+}
+
+.kontakt-2 {
+    width: 32.5vw;
+    padding-left: 2.5vw;
+}
+
+#map-container-google-1 {
+    width: 32.5vw;
+    height: 400px !important;
+}
+
+#map-container-google-1 iframe {
+    width: 32.5vw;
+    height: 400px;
+}
+
+#textarea {
+    height: 115px !important;
+}
+
+#button-form {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#button-form:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+
 
 .behälter-artikel {
     min-width: 70vw;
