@@ -174,12 +174,20 @@ main .container-fluid {
     margin-bottom: 30px;
 }
 
-#col-md-6-kontakt {
+#col-md-6-kontakt-1 {
     width: 32.5vw;
     display: flex;
     justify-content: flex-start;
     padding: 0 0 0 0 !important;
 }
+
+#col-md-6-kontakt-2 {
+    width: 32.5vw;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 0 0 0 !important;
+}
+
 
 .kontakt-2 {
     width: 32.5vw;
