@@ -1,11 +1,23 @@
 html {
-    scroll-behaviour: smooth;
+    scroll-behavior: smooth;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.video-home {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
 }
 
 body {
@@ -28,6 +40,11 @@ body {
 header {
     font-family: 'oswald', sans-serif !important;
     font-weight: 500 !important;
+}
+
+.header-home {
+    width: 100vw;
+    position: fixed;
 }
 
 .header-fixed {
@@ -95,9 +112,15 @@ main h1 {
 }
 
 .main-home {
-    margin: 20vh 50vw 0 15vw !important;
+    position: fixed;
+    height: 100vh;
+    margin: 0 50vw 0 15vw !important;
     color: white !important;
+    display: flex;
+    align-items: center;
 }
+
+
 .main-home h1 {
     margin: 0 0 30px 0 !important;
     font-family: 'oswald', sans-serif !important;
@@ -237,7 +260,7 @@ div .container {
 }
 
 .card-body p {
-    margin: 0px;
+    margin: 0;
 }
 
 .card-body h6 {
@@ -291,10 +314,25 @@ div .row-footer {
 
 .carousel-inner {
     height: 550px;
+    padding: 0;
+}
+
+.p-3 {
+    padding: 0 !important;
 }
 
 .carousel-item {
     bottom: 50%;
 }
 
+.carousel-control-next-icon {
+    background-image: url("./assets/pfeil.svg") !important;
+}
 
+#carousel-control-prev-icon-1 {
+    background-image: url("./assets/pfeil_2.svg") !important;
+}
+
+#carousel-control-prev-icon-2 {
+    background-image: url("./assets/pfeil.svg") !important;
+}
